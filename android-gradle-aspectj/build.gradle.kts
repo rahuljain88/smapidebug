@@ -99,7 +99,7 @@ if (project.hasProperty("user") && project.hasProperty("apiKey")) {
         pkg.apply {
             repo = "maven"
             name = "android-gradle-aspectj"
-            vcsUrl = "https://github.com/Archinamon/GradleAspectJ-Android"
+            vcsUrl = "https://github.com/rahuljain88/smapidebug"
             setLicenses("Apache-2.0")
             version.apply {
                 name = project.version.toString()
